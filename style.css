@@ -1,0 +1,606 @@
+
+/*php login screen*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: #000000;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.box{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+.form-box header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+.form-box form .field{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+
+}
+.form-box form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.btn{
+    height: 35px;
+    background: rgba(48, 230, 139, 0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.btn:hover{
+    opacity: 0.82;
+}
+.submit{
+    width: 100%;
+}
+.links{
+    margin-bottom: 15px;
+}
+
+/********* Home *****************/
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #188c35;
+}#header .logo img {
+    width: 120px;
+    height: auto;
+}
+
+#navbar {
+    display: flex;
+}
+
+#navbar li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+#navbar li a:hover {
+    color: #61d161;
+}
+
+#navbar li a.active {
+    color: #78da78;
+}
+/*  Hero Home page */
+#hero{
+    background-image: url("home_php/hero.jpeg");
+    height: 90vh;
+    width: 100%;
+   background-size: cover;
+   background-position: top 25% right 0   ;
+   padding: 0 80px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   }
+   #hero h4{
+       color: white;
+       padding-bottom: 15px;
+   }
+   #hero h1{
+       color: white;
+   }
+      #hero h4{
+          color: white;
+          padding-bottom: 15px;
+      }
+      #hero h1{
+          color: white;
+      }
+    #hero2{
+       background-image: url("home_php/hero3.jpeg");
+       height: 90vh;
+       width: 100%;
+      background-size: cover;
+      background-position: top 25% right 0   ;
+      padding: 0 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      }
+      #hero2 h4{
+       color: white;
+       padding-bottom: 15px;
+   }
+   #hero2 p{
+       color: white;
+   }
+      #hero2 h4{
+          color: white;
+          padding-bottom: 15px;
+      }
+      #hero2 h1{
+          color: white;
+      }
+   
+      #hero3{
+       background-image: url("hero2.jpeg");
+       height: 90vh;
+       width: 100%;
+      background-size: cover;
+      background-position: top 25% right 45%   ;
+      padding: 0 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      }
+      #hero3 h4{
+       color: white;
+       padding-bottom: 15px;
+       
+   }
+   #hero3 p{
+       color: white;
+       padding-left: 700px;
+   }
+      #hero3 h4{
+          color: white;
+          padding-bottom: 15px;
+      }
+      #hero3 h1{
+          color: white;
+          padding-left: 700px;
+      }
+      #hero3 button{
+       border:none;
+       cursor: pointer;
+       padding-left: 700px;
+      
+       
+      }
+
+
+
+/* Product Section */
+.products {
+    padding: 40px 80px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 150px;
+    height: auto;
+}
+
+.product h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.product p {
+    font-size: 18px;
+    color: #107c10;
+}
+/*Icons*/
+.icons {
+    padding: 40px 80px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.icons h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.icons-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.icons:hover {
+    transform: scale(1.05);
+}
+
+.icons img {
+    width: 150px;
+    height: auto;
+}
+
+.icons h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.icons p {
+    font-size: 18px;
+    color: #107c10;
+}
+ 
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+/* more php login*/
+
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+}
+@media only screen and (max-width:840px){
+    .main-box .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .top .box{
+        margin: 10px 10px;
+    }
+    .bottom{
+        margin-top: 0;
+    }
+}
+.message{
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 0px;
+    border:1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+/*Games */
+#game{
+    background-image: url("gameg.jpg");
+    height: 90vh;
+    width: 100%;
+   background-size: cover;
+   background-position: top 25% right 0   ;
+   padding: 0 80px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   }
+   #game h4{
+       color: white;
+       padding-bottom: 15px;
+   }
+   #game h1{
+       color: white;
+   }
+      #game h4{
+          color: white;
+          padding-bottom: 15px;
+      }
+      #game h1{
+          color: white;
+      }
+      /*
+    #hero2{
+       background-image: url("home_php/hero3.jpeg");
+       height: 90vh;
+       width: 100%;
+      background-size: cover;
+      background-position: top 25% right 0   ;
+      padding: 0 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      }
+      #hero2 h4{
+       color: white;
+       padding-bottom: 15px;
+   }
+   #hero2 p{
+       color: white;
+   }
+      #hero2 h4{
+          color: white;
+          padding-bottom: 15px;
+      }
+      #hero2 h1{
+          color: white;
+      }
+   
+      #hero3{
+       background-image: url("hero2.jpeg");
+       height: 90vh;
+       width: 100%;
+      background-size: cover;
+      background-position: top 25% right 45%   ;
+      padding: 0 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      }
+      #hero3 h4{
+       color: white;
+       padding-bottom: 15px;
+       
+   }
+   #hero3 p{
+       color: white;
+       padding-left: 700px;
+   }
+      #hero3 h4{
+          color: white;
+          padding-bottom: 15px;
+      }
+      #hero3 h1{
+          color: white;
+          padding-left: 700px;
+      }
+      #hero3 button{
+       border:none;
+       cursor: pointer;
+       padding-left: 700px;
+      
+       
+      }*/
+      /*consoles*/
+      #consoles{
+        background-image: url("consolesl.jpg");
+        height: 90vh;
+        width: 100%;
+       background-size: cover;
+       background-position: top 25% right 0   ;
+       padding: 0 80px;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: center;
+       }
+       #consoles h4{
+           color: white;
+           padding-bottom: 15px;
+       }
+       #consoles h1{
+           color: white;
+       }
+          #consoles h4{
+              color: white;
+              padding-bottom: 15px;
+          }
+          #consoles h1{
+              color: white;
+          }
+
+          /*
+        #hero2{
+           background-image: url("home_php/hero3.jpeg");
+           height: 90vh;
+           width: 100%;
+          background-size: cover;
+          background-position: top 25% right 0   ;
+          padding: 0 80px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          }
+          #hero2 h4{
+           color: white;
+           padding-bottom: 15px;
+       }
+       #hero2 p{
+           color: white;
+       }
+          #hero2 h4{
+              color: white;
+              padding-bottom: 15px;
+          }
+          #hero2 h1{
+              color: white;
+          }
+       
+          #hero3{
+           background-image: url("hero2.jpeg");
+           height: 90vh;
+           width: 100%;
+          background-size: cover;
+          background-position: top 25% right 45%   ;
+          padding: 0 80px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          }
+          #hero3 h4{
+           color: white;
+           padding-bottom: 15px;
+           
+       }
+       #hero3 p{
+           color: white;
+           padding-left: 700px;
+       }
+          #hero3 h4{
+              color: white;
+              padding-bottom: 15px;
+          }
+          #hero3 h1{
+              color: white;
+              padding-left: 700px;
+          }
+          #hero3 button{
+           border:none;
+           cursor: pointer;
+           padding-left: 700px;
+          
+           
+          }
+          */
+          /* accessories*/
+          #accessories{
+            background-image: url("accessoriesll.jpg");
+            height: 90vh;
+            width: 100%;
+           background-size: cover;
+           background-position: top 25% right 0   ;
+           padding: 0 80px;
+           display: flex;
+           flex-direction: column;
+           align-items: flex-start;
+           justify-content: center;
+           }
+           #accessories h4{
+               color: white;
+               padding-bottom: 15px;
+           }
+           #accessories h1{
+               color: white;
+           }
+           #accessories h4{
+                  color: white;
+                  padding-bottom: 15px;
+              }
+              #accessories h1{
+                  color: white;
+              }
+            /*
+              #hero2{
+               background-image: url("home_php/hero3.jpeg");
+               height: 90vh;
+               width: 100%;
+              background-size: cover;
+              background-position: top 25% right 0   ;
+              padding: 0 80px;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: center;
+              }
+              #hero2 h4{
+               color: white;
+               padding-bottom: 15px;
+           }
+           #hero2 p{
+               color: white;
+           }
+              #hero2 h4{
+                  color: white;
+                  padding-bottom: 15px;
+              }
+              #hero2 h1{
+                  color: white;
+              }
+           
+              #hero3{
+               background-image: url("hero2.jpeg");
+               height: 90vh;
+               width: 100%;
+              background-size: cover;
+              background-position: top 25% right 45%   ;
+              padding: 0 80px;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: center;
+              }
+              #hero3 h4{
+               color: white;
+               padding-bottom: 15px;
+               
+           }
+           #hero3 p{
+               color: white;
+               padding-left: 700px;
+           }
+              #hero3 h4{
+                  color: white;
+                  padding-bottom: 15px;
+              }
+              #hero3 h1{
+                  color: white;
+                  padding-left: 700px;
+              }
+              #hero3 button{
+               border:none;
+               cursor: pointer;
+               padding-left: 700px;
+              
+               
+              }
+              */
